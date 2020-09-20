@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<div class="row justify-content-center mar-top ">
+    <!-- <div class="col-lg-4  hea"><h3>Welcome to chat APP</h3></div> -->
+    <br><br>
+</div>
+<div class="row justify-content-center">
+   
+    <div class="col-lg-3  hea ">
+        <br>
+        Username
+        <input type="text" placeholder="Username" id="user-new" required class="input"></div>
+    <br><br>
+</div>
+<div class="row justify-content-center">
+   
+    <div class="col-lg-3  hea ">
+        <br>
+        Username or Email Address
+        <input type="email" placeholder="Email" id="email-new" required class="input"></div>
+    <br><br>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-3  hea">
+        <br>
+        Password
+        <br>
+        <input type="password" placeholder="password" id="password-new" required class="input"></div>
+        
+</div>
+<div class="row justify-content-center ">
+    
+    <div class="col-lg-3 right1  hea">
+        <button class="login" onclick="register()" >Register</button>
+        
+</div>
+
+
+
+<!-- <div class="row justify-content-center">
+    <div class="col-lg-3 "><button onclick="login()fb" class="delete">Facebook login</button></div>
+</div> -->
+    </div>
+
+
+    <script src="register.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB0mSR6LSlA7KvgJPuGKXh2NDfIhoHF1jU",
+    authDomain: "authorize-3f3c3.firebaseapp.com",
+    databaseURL: "https://authorize-3f3c3.firebaseio.com",
+    projectId: "authorize-3f3c3",
+    storageBucket: "authorize-3f3c3.appspot.com",
+    messagingSenderId: "113311129446",
+    appId: "1:113311129446:web:554c921d81b7717841b2a7",
+    measurementId: "G-KJNZQKB3YJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
